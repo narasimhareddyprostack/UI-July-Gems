@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .nameDiv{
+      display: flex;
+      gap: 10px;
+  }
