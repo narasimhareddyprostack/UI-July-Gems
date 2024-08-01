@@ -1,0 +1,14 @@
+a{
+    background-color: red;
+}
+
+a[target]{
+    background-color: yellow;
+}
+/* .abc{
+    background-color: yellow;
+} */
+
+*{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
